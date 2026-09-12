@@ -11,9 +11,10 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
-      - run: chmod +x ./gradlew
-      - run: ./gradlew wrapper --gradle-version 9.5.1
-      - run: ./gradlew build
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+      - name: Build with Gradle
+        run: gradle build
       - uses: actions/upload-artifact@v4
         with:
           name: backrooms-mod
