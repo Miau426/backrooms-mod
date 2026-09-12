@@ -1,0 +1,17 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [32, 32],
+  "textures": {"0": "backrooms:block/black"},
+  "elements": [{
+    "from": [0, 0, 0],
+    "to": [2, 2, 16],
+    "faces": {
+      "north": {"uv": [4, 4, 6, 6], "texture": "#0"},
+      "east": {"uv": [0, 0, 16, 2], "texture": "#0"},
+      "south": {"uv": [4, 6, 6, 8], "texture": "#0"},
+      "west": {"uv": [0, 2, 16, 4], "texture": "#0"},
+      "up": {"uv": [2, 20, 0, 4], "texture": "#0"},
+      "down": {"uv": [4, 4, 2, 20], "texture": "#0"}
+    }
+  }]
+}

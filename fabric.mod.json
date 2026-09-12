@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "backrooms",
+	"version": "${version}",
+	"name": "Backrooms Mod",
+	"description": "Custom Backrooms blocks mod with Blockbench models",
+	"authors": ["Your Name"],
+	"contact": {"homepage": "https://fabricmc.net/"},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.backrooms.BackroomsMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
